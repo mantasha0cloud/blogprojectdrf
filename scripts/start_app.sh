@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["13.57.177.32"]/' /home/ubuntu/Your_project_folder_name/mysite/settings.py
+sed -i 's/\[]/\["13.57.177.32"]/' /home/ubuntu/blogprojectdrf/mysite/settings.py
 
 python manage.py migrate 
 # python manage.py makemigrations     
